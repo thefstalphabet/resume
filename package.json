@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles.css -o src/output.css --watch",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "init": "^0.1.2",
+    "puppeteer": "^23.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
